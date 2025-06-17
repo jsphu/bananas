@@ -1,0 +1,14 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: Arial, sans-serif;}
+body { color: #333; }
+header, footer { background: #f8f8f8; padding: 1rem; text-align: center;}
+.hero { padding: 4rem 1rem; text-align: center; background: #e0f7fa;}
+.btn { display: inline-block; background: #00796b; color: #fff; padding: .75rem 1.5rem; text-decoration: none; border-radius: 4px; margin: 1rem 0;}
+.features-preview { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; padding: 2rem;}
+.features-preview div { flex: 1 1 200px; padding: 1rem; border: 1px solid #ccc; border-radius: 6px; text-align: center;}
+form { max-width: 400px; margin: 2rem auto; display: flex; flex-direction: column; gap: 1rem;}
+label input, label textarea { width: 100%; padding: .5rem; border: 1px solid #ccc; border-radius: 4px;}
+footer p { font-size: .9rem;}
+@media (max-width: 600px) {
+  .features-preview { flex-direction: column; }
+}
+
